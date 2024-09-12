@@ -87,7 +87,7 @@ try
         {
             Console.WriteLine("Shortest path:");
             foreach (var segment in shortestPath.Segments) {
-                Console.WriteLine(segment.ToString());
+                Console.WriteLine(segment.Name);
             }
         }
         else
